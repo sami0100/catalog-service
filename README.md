@@ -1,4 +1,4 @@
-# Catalog Service (Go + MongoDB)
+# Catalog Service Readme.md (Go + MongoDB)
 
 ## Endpoints
 - `GET /health` — service health.
