@@ -23,7 +23,7 @@ jobs:
         run: docker build -t catalog-service:ci .
 
   cd:
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/master'
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v4
